@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    focalboard:
+        platform: linux/amd64  # for for Apple silicon (Mac M1) https://docs.docker.com/docker-for-mac/apple-silicon/#known-issues 
+        image: mattermost/focalboard
+        environment: 
+            TZ: Asia/Tokyo
+        ports:
+            - "8000:8000"
