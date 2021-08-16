@@ -1,4 +1,4 @@
-FROM mattermost/focalboard
+FROM mattermost/focalboard:0.6.7
 
 USER root
 
